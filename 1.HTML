@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 10px;
+
+        }
+        /* body{
+            background-image: url(NTA.jpg) ;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 900px 900px;
+           
+        } */
+
+        .personal{
+            color: rgb(246, 246, 250);
+            
+            background-color: rgb(66, 66, 196);
+            border-radius: 10px;
+            display: inline;
+            font-size: 24px;
+        }
+
+        .edu {
+            border: 2px solid blue;
+            background-color: blue;
+            color: white;
+            font-size: 24px;
+            border-radius: 10px;
+            display: inline;
+        
+        }
+
+        .contact {
+            border: 2px solid blue;
+            background-color: blue;
+            color: white;
+            font-size: 24px;
+            border-radius: 10px;
+            display: inline;
+        
+        }
+        h1{
+            text-align: center;
+            
+        }
+       .left{
+        display: inline-block;
+       }
+       .left img{
+        width: 98px;
+        height: 99px;
+       }
+       .center{
+        display: inline-block;
+        position: absolute;
+        left: 35%;
+        top: 5%;
+        font-size: 25px
+       }
+    </style>
+</head>
+
+<body>
+    <div class="left"><img src="nta logo.jpg"></div>
+  <div class="center">  <h1>Registration Form</h1></div>
+    <div class="container">
+        <form>
+
+            <div class="personal">Personal Details</div>
+            <hr>
+            Candidate's Name:<input type="text" placeholder="Name"><br>
+            Candidate DOB:<input type="text" placeholder="dd/mm/yyyy"><BR>
+            <!-- Gender:<input type="text" s>
+          <select class="gender">
+            <option typ value="Female">Female</option> -->
+            Gender:<input type="radio" name="gender">male
+            <input type="radio" name="gender">female
+            <br>
+           <label>Category</label>
+           <select>
+            <option value="">--select--</option>
+            <option value="General">General</option>
+            <option value="OBC-1">OBC-1</option>
+            <option value="OBC-2">OBC-2</option>
+            <option value="SC">SC</option>
+            <option value="ST">ST</option>
+           </select><br>
+
+
+            Father's Name:<input type="text" placeholder=""> Father's Occupation:<input type="text"><br>
+            Mother's Name:<input type="text" placeholder="">
+            Mother's Occupation:<input type="text"><br>
+            Parent's Phone no.:<input type="text" placeholder="+91"><br>
+            Parent's e-mail: <input type="text" placeholder="@gmail.com"><br>
+            <div class="edu">
+                Educational Details
+            </div>
+            <hr>
+            Matriculation:<input type="text" placeholder="enter grade">
+            Year of Passing:<input type="text">
+            School:<input type="text"><br>
+            Intermediate:<input type="text" placeholder="enter grade">
+            Year of Passing<input type="text">
+            School:<input type="text"><br>
+            <div class="contact">
+                Contact Details
+            </div>
+            <hr>
+          
+  Permanent Address: <input type="text">
+  Pin Code:<input type="text"><br>
+  Correspondance Address:<input type="text">
+  Pin Code:<input type="text"><br>
+  Phone no.:<input type="text" placeholder="+91">
+  email:<input type="text" placeholder="@gmail.com">
+
+
+
+        </form>
+    </div>
+
+</body>
+
+</html>
